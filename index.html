@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-image: url("https://img.freepik.com/free-photo/lots-colorful-balloons-blue-sky-concept-love-summer-valentine-wedding-honeymoon-vintage-effect-style-pictures_1253-1118.jpg?w=1380&t=st=1667453648~exp=1667454248~hmac=f417682c9797f8f9dbf4014c7d39c8b5257cf07b001b7a3a4bb1489f7385e48b");
+        background-position: center;
+        background-size: cover;
+
+        color: white;
+      }
+
+      .time {
+        font-size: 80px;
+        font-weight: bold;
+      }
+
+      .greeting {
+        font-size: 50px;
+      }
+
+      .todo {
+        font-size: 30px;
+      }
+
+      .author {
+        font-size: 25px;
+        font-style: italic;
+      }
+
+      .main {
+        width: 100vw;
+        height: 80vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .quote {
+        width: 100vw;
+        height: 20vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+
+    <script></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div id="time" class="time">12:00</div>
+      <div class="greeting">Hello, Mingyeong!</div>
+      <div class="todo">Go Shopping</div>
+    </div>
+    <div class="quote">
+      <div id="author" class="author">- 명언의 저자 -</div>
+      <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+  </body>
+</html>
